@@ -1,0 +1,120 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.red {
+    border: 1px solid red;
+}
+.blue {
+    border: 1px solid blue;
+}
+.banner {
+    height: 865px;
+    background: url(./img/banner.jpg) center center no-repeat;
+}
+.headerbanner {
+    padding: 0px 382px 0px 382px;
+}
+.sign, .aboutus {
+    text-decoration: none;
+}
+
+.login {
+    padding-top: 45px ;
+}
+
+.sign {
+    border: 2px solid #8BC34A;
+    border-radius:25px;
+    padding: 5px 15px;
+    color: #8BC34A;
+    margin-left: 30px ;
+    margin-right: 80px;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+.sign:hover,.aboutus:hover {
+    text-decoration: underline;
+}
+
+.about {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.logo {
+    height: 295px;
+}
+.logo1 {
+    padding: 164px 0px 53px;
+    height: 90px;
+    text-align: center;
+}
+
+.logohapo {
+    width: 256px;
+    height: 77px;
+}
+
+.content {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    height: 24px;
+    padding-top: 20px;
+}
+
+.button-start {
+    text-align: center;
+}
+
+.button {
+    text-transform: uppercase;
+    border-radius: 100px;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%) ;
+    padding: 10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.icon-text {
+height: 110px;
+
+}
+
+.icon1, .icon2, .icon3 {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.better, .faster, .together {
+    display: block;
+    font-size: 36px;
+    height: 42px;
+}
+.ic1, .ic2, .ic3 {
+    width: 52px;
+    height: 48px;
+}
+
+.icon1 {
+    height: 48px;
+
+}
+
+.icon2 {
+    height: 48px;
+
+}
+
+.icon3 {
+    height: 48px;
+
+}

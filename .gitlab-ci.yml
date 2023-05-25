@@ -17,9 +17,9 @@ deploy:
     - 'pwd'
     - 'docker rm -f testweb'
     - 'docker rmi -f thanhtuyen/deploy'
-    - 'docker image build -t $CI_JOB_NAME:v1.$CI_JOB_ID .'
-    - 'docker image tag $CI_JOB_NAME:v1.$CI_JOB_ID thanhtuyen/$CI_JOB_NAME:v1.$CI_JOB_ID'
-    - 'docker image tag $CI_JOB_NAME:v1.$CI_JOB_ID thanhtuyen/$CI_JOB_NAME:latest'
+    - 'docker image build -t thanhtuyen/$CI_JOB_NAME:latest .'
+    # - 'docker image tag $CI_JOB_NAME:v1.$CI_JOB_ID thanhtuyen/$CI_JOB_NAME:v1.$CI_JOB_ID'
+    #- 'docker image tag $CI_JOB_NAME:v1.$CI_JOB_ID thanhtuyen/$CI_JOB_NAME:latest'
 production:
   stage: production
   tags:
